@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* import tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add custom font family */
+body {
+    @apply font-sans;
+}
+
+button {
+    border-radius: 9999px;
+    border-width: 6px;
+    border-color: #bbbdf1;
+}
+
+/* add custom font family classes */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
